@@ -31,7 +31,40 @@ const questions = [
         "useContext"
         ],
         answer: "useState"
-    } 
+    },
+    {
+        id: 4,
+        question: "Which hook is used for side effects in React?",
+        options: [
+        "useReducer",
+        "useEffect",
+        "useRef",
+        "useCallback"
+        ],
+        answer: "useEffect"
+    },
+    {
+        id: 5,
+        question: "JSX stands for?",
+        options: [
+        "Java Syntax Extension",
+        "JavaScript XML",
+        "JavaScript Extension",
+        "JSON XML"
+        ],
+        answer: "JavaScript XML"
+    },
+    {
+        id: 6,
+        question: "Which method is used to render a list in React?",
+        options: [
+        "filter()",
+        "forEach()",
+        "map()",
+        "find()"
+        ],
+        answer: "map()"
+    }
 ];
 
 export default questions;
